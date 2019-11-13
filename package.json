@@ -1,0 +1,26 @@
+{
+  "name": "@lotus-ui/classnames",
+  "version": "1.0.0",
+  "description": "A simple javascript utility for conditionally joining classNames together",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:lotus-ui/classnames.git",
+  "author": "wangxingkang (wang_xingkang@qq.com)",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pansy",
+    "lint": "walrus lint",
+    "test": "walrus test",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@pansy/cli": "^0.1.6",
+    "@walrus/cli": "^0.3.0",
+    "typescript": "^3.7.2"
+  }
+}
