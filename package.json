@@ -22,5 +22,8 @@
     "@pansy/cli": "^0.1.6",
     "@walrus/cli": "^0.3.0",
     "typescript": "^3.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
