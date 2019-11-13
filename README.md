@@ -4,8 +4,8 @@
 
 > A simple javascript utility for conditionally joining classNames together
 
-[![NPM version](https://img.shields.io/npm/v/@lotus-ui/classnames.svg?style=flat)](https://npmjs.org/package/@lotus-ui/classnames)
-[![NPM downloads](http://img.shields.io/npm/dm/@lotus-ui/classnames.svg?style=flat)](https://npmjs.org/package/@lotus-ui/classnames)
+[![NPM version](https://img.shields.io/npm/v/@pansy/classnames.svg?style=flat)](https://npmjs.org/package/@pansy/classnames)
+[![NPM downloads](http://img.shields.io/npm/dm/@pansy/classnames.svg?style=flat)](https://npmjs.org/package/@pansy/classnames)
 
 ## ✨ 特性
 
@@ -15,16 +15,16 @@
 
 ```
 // npm
-npm install @lotus-ui/classnames --save
+npm install @pansy/classnames --save
 
 // yarn
-yarn add @lotus-ui/classnames
+yarn add @pansy/classnames
 ```
 
 ## 🔨 使用
 
 ```
-import classNames from '@lotus-ui/classnames';
+import classNames from '@pansy/classnames';
 
 classNames('lotus-button', {
   [`is-active`]: true
