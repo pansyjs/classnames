@@ -1,6 +1,6 @@
 {
   "name": "@pansy/classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple javascript utility for conditionally joining classNames together",
   "main": "dist/index.js",
   "unpkg": "dist/index.umd.js",
